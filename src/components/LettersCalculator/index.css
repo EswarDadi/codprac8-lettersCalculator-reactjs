@@ -1,0 +1,30 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  padding: 12px;
+  display: flex;
+}
+.heading {
+  color: #ffffff;
+}
+.description {
+  color: #ffffff;
+}
+.input-element {
+  background-color: transparent;
+  border-color: #ffffff;
+  border-width: 0.5px;
+  padding: 2px;
+}
+.image {
+  width: 200px;
+  height: 150px;
+}
+.letters-counting-container {
+  color: #1d976c;
+  background-color: #ffffff;
+  margin-top: 12px;
+  border-radius: 12px;
+  padding: 12px;
+}

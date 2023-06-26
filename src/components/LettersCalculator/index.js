@@ -24,7 +24,10 @@ class LettersCalculator extends Component {
             enter
           </h1>
 
-          <p className="description">Enter the phrase</p>
+          <label htmlFor="label" className="description">
+            Enter the phrase
+          </label>
+          <br />
 
           <input
             type="text"
@@ -32,6 +35,7 @@ class LettersCalculator extends Component {
             className="input-element"
             value={userText}
             onChange={this.onChangeText}
+            id="label"
           />
 
           <div className="letters-counting-container">
